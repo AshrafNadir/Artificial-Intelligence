@@ -61,6 +61,18 @@ h1 span:before{
     margin-left: -.3em;
 }
 
+
+h1 span:before{
+    content: ' ';
+    position: absolute;
+    width: 3em;
+    background: #4bacca;
+    height: .4em;
+    bottom: 0;
+    z-index: -1;
+    margin-left: -.3em;
+}
+
 .hero-bg p{
     font-weight: bold;
     margin: 0 1em 3em;
